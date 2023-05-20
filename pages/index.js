@@ -1,20 +1,15 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { Header } from '../components/header';
-import { Hero } from '../components/hero';
-import { Footer } from '../components/footer';
+import { Hero } from '../components/Hero';
+import { Layout } from '../components/Layout';
 
 export default function Home() {
   return (
     <>
-      <Header />
-
-      <main>
+      <Layout>
         <Hero />
-      </main>
-
-      <Footer />
+      </Layout>
     </>
-  )
+  );
 }
