@@ -1,5 +1,9 @@
+import { Logo } from './Logo';
+
 export const Footer = () => {
   return (
-    <footer>FOOTER</footer>
+    <footer>
+      <Logo />
+    </footer>
   );
 }

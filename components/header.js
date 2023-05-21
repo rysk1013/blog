@@ -1,5 +1,11 @@
+import { Logo } from './Logo';
+import { Nav } from './Nav';
+
 export const Header = () => {
   return (
-    <header>HEADER</header>
+    <header>
+      <Logo />
+      <Nav />
+    </header>
   );
 }
