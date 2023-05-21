@@ -1,8 +1,8 @@
-export const Hero = () => {
+export const Hero = (props) => {
   return (
     <div>
-      <h1>CUBE</h1>
-      <p>アウトプットしていくサイト</p>
+      <h1>{ props.title }</h1>
+      <p>{ props.subtitle }</p>
     </div>
   );
 }
