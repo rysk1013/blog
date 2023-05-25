@@ -1,11 +1,17 @@
-import { Logo } from './Logo';
-import { Nav } from './Nav';
+import { Container } from 'components/Container';
+import { Logo } from 'components/Logo';
+import { Nav } from 'components/Nav';
+import styles from 'styles/header.module.css';
 
 export const Header = () => {
   return (
     <header>
-      <Logo boxOn />
-      <Nav />
+      <Container large>
+        <div className={styles.flexContainer}>
+          <Logo boxOn />
+          <Nav />
+        </div>
+      </Container>
     </header>
   );
 }
