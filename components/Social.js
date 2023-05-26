@@ -6,9 +6,9 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import styles from 'styles/social.module.css';
 
-export const Social = () => {
+export const Social = (props) => {
   return (
-    <ul className={styles.list}>
+    <ul className={styles.list} style={{'--icon-size': props.iconSize}}>
       <li>
         <a href="https://twitter.com">
           <FontAwesomeIcon icon={faTwitter} />

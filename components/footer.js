@@ -9,7 +9,7 @@ export const Footer = () => {
       <Container>
         <div className={styles.flexContainer}>
           <Logo />
-          <Social />
+          <Social iconSize="24px" />
         </div>
       </Container>
     </footer>
