@@ -1,4 +1,4 @@
-import Head from 'next/head';
+import { Meta } from 'components/Meta';
 import Image from 'next/image';
 import eyecatch from 'images/about.jpg';
 import { Container } from 'components/Container';
@@ -10,9 +10,7 @@ import { Contact } from 'components/Contact';
 export default function About() {
   return (
     <Container>
-      <Head>
-        <title>About</title>
-      </Head>
+      <Meta pageTitle="About" />
       <Hero
         title="About"
         subtitle="About development activities"
