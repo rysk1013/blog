@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Image from 'next/image';
 import eyecatch from 'images/about.jpg';
 import { Container } from 'components/Container';
@@ -9,6 +10,9 @@ import { Contact } from 'components/Contact';
 export default function About() {
   return (
     <Container>
+      <Head>
+        <title>About</title>
+      </Head>
       <Hero
         title="About"
         subtitle="About development activities"
