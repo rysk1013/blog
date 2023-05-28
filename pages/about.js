@@ -10,7 +10,7 @@ import { Contact } from 'components/Contact';
 export default function About() {
   return (
     <Container>
-      <Meta pageTitle="About" />
+      <Meta pageTitle="About" pageDesc="About development activities" />
       <Hero
         title="About"
         subtitle="About development activities"
